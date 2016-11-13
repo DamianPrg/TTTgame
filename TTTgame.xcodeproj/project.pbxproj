@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68190DDF1DD8E5F1001C0862 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68190DDE1DD8E5F1001C0862 /* main.m */; };
+		68190DE21DD8E5F1001C0862 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68190DE11DD8E5F1001C0862 /* AppDelegate.m */; };
+		68190DE51DD8E5F1001C0862 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68190DE41DD8E5F1001C0862 /* ViewController.m */; };
+		68190DE81DD8E5F1001C0862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68190DE61DD8E5F1001C0862 /* Main.storyboard */; };
+		68190DEB1DD8E5F1001C0862 /* TTTgame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68190DE91DD8E5F1001C0862 /* TTTgame.xcdatamodeld */; };
+		68190DED1DD8E5F1001C0862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68190DEC1DD8E5F1001C0862 /* Assets.xcassets */; };
+		68190DF01DD8E5F1001C0862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68190DEE1DD8E5F1001C0862 /* LaunchScreen.storyboard */; };
+		68190DFB1DD8E5F1001C0862 /* TTTgameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68190DFA1DD8E5F1001C0862 /* TTTgameTests.m */; };
+		68190E061DD8E5F1001C0862 /* TTTgameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68190E051DD8E5F1001C0862 /* TTTgameUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68190DF71DD8E5F1001C0862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68190DD21DD8E5F1001C0862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68190DD91DD8E5F1001C0862;
+			remoteInfo = TTTgame;
+		};
+		68190E021DD8E5F1001C0862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68190DD21DD8E5F1001C0862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68190DD91DD8E5F1001C0862;
+			remoteInfo = TTTgame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68190DDA1DD8E5F1001C0862 /* TTTgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTTgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68190DDE1DD8E5F1001C0862 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68190DE01DD8E5F1001C0862 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68190DE11DD8E5F1001C0862 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68190DE31DD8E5F1001C0862 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68190DE41DD8E5F1001C0862 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68190DE71DD8E5F1001C0862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68190DEA1DD8E5F1001C0862 /* TTTgame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TTTgame.xcdatamodel; sourceTree = "<group>"; };
+		68190DEC1DD8E5F1001C0862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68190DEF1DD8E5F1001C0862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68190DF11DD8E5F1001C0862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68190DF61DD8E5F1001C0862 /* TTTgameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTgameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68190DFA1DD8E5F1001C0862 /* TTTgameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTgameTests.m; sourceTree = "<group>"; };
+		68190DFC1DD8E5F1001C0862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68190E011DD8E5F1001C0862 /* TTTgameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTgameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68190E051DD8E5F1001C0862 /* TTTgameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTgameUITests.m; sourceTree = "<group>"; };
+		68190E071DD8E5F1001C0862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68190DD71DD8E5F1001C0862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68190DF31DD8E5F1001C0862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68190DFE1DD8E5F1001C0862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68190DD11DD8E5F1001C0862 = {
+			isa = PBXGroup;
+			children = (
+				68190DDC1DD8E5F1001C0862 /* TTTgame */,
+				68190DF91DD8E5F1001C0862 /* TTTgameTests */,
+				68190E041DD8E5F1001C0862 /* TTTgameUITests */,
+				68190DDB1DD8E5F1001C0862 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68190DDB1DD8E5F1001C0862 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68190DDA1DD8E5F1001C0862 /* TTTgame.app */,
+				68190DF61DD8E5F1001C0862 /* TTTgameTests.xctest */,
+				68190E011DD8E5F1001C0862 /* TTTgameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68190DDC1DD8E5F1001C0862 /* TTTgame */ = {
+			isa = PBXGroup;
+			children = (
+				68190DE01DD8E5F1001C0862 /* AppDelegate.h */,
+				68190DE11DD8E5F1001C0862 /* AppDelegate.m */,
+				68190DE31DD8E5F1001C0862 /* ViewController.h */,
+				68190DE41DD8E5F1001C0862 /* ViewController.m */,
+				68190DE61DD8E5F1001C0862 /* Main.storyboard */,
+				68190DEC1DD8E5F1001C0862 /* Assets.xcassets */,
+				68190DEE1DD8E5F1001C0862 /* LaunchScreen.storyboard */,
+				68190DF11DD8E5F1001C0862 /* Info.plist */,
+				68190DE91DD8E5F1001C0862 /* TTTgame.xcdatamodeld */,
+				68190DDD1DD8E5F1001C0862 /* Supporting Files */,
+			);
+			path = TTTgame;
+			sourceTree = "<group>";
+		};
+		68190DDD1DD8E5F1001C0862 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68190DDE1DD8E5F1001C0862 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68190DF91DD8E5F1001C0862 /* TTTgameTests */ = {
+			isa = PBXGroup;
+			children = (
+				68190DFA1DD8E5F1001C0862 /* TTTgameTests.m */,
+				68190DFC1DD8E5F1001C0862 /* Info.plist */,
+			);
+			path = TTTgameTests;
+			sourceTree = "<group>";
+		};
+		68190E041DD8E5F1001C0862 /* TTTgameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68190E051DD8E5F1001C0862 /* TTTgameUITests.m */,
+				68190E071DD8E5F1001C0862 /* Info.plist */,
+			);
+			path = TTTgameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68190DD91DD8E5F1001C0862 /* TTTgame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68190E0A1DD8E5F1001C0862 /* Build configuration list for PBXNativeTarget "TTTgame" */;
+			buildPhases = (
+				68190DD61DD8E5F1001C0862 /* Sources */,
+				68190DD71DD8E5F1001C0862 /* Frameworks */,
+				68190DD81DD8E5F1001C0862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTTgame;
+			productName = TTTgame;
+			productReference = 68190DDA1DD8E5F1001C0862 /* TTTgame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68190DF51DD8E5F1001C0862 /* TTTgameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68190E0D1DD8E5F1001C0862 /* Build configuration list for PBXNativeTarget "TTTgameTests" */;
+			buildPhases = (
+				68190DF21DD8E5F1001C0862 /* Sources */,
+				68190DF31DD8E5F1001C0862 /* Frameworks */,
+				68190DF41DD8E5F1001C0862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68190DF81DD8E5F1001C0862 /* PBXTargetDependency */,
+			);
+			name = TTTgameTests;
+			productName = TTTgameTests;
+			productReference = 68190DF61DD8E5F1001C0862 /* TTTgameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68190E001DD8E5F1001C0862 /* TTTgameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68190E101DD8E5F1001C0862 /* Build configuration list for PBXNativeTarget "TTTgameUITests" */;
+			buildPhases = (
+				68190DFD1DD8E5F1001C0862 /* Sources */,
+				68190DFE1DD8E5F1001C0862 /* Frameworks */,
+				68190DFF1DD8E5F1001C0862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68190E031DD8E5F1001C0862 /* PBXTargetDependency */,
+			);
+			name = TTTgameUITests;
+			productName = TTTgameUITests;
+			productReference = 68190E011DD8E5F1001C0862 /* TTTgameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68190DD21DD8E5F1001C0862 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Damian Balandowski";
+				TargetAttributes = {
+					68190DD91DD8E5F1001C0862 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6YFN2JGE68;
+						ProvisioningStyle = Automatic;
+					};
+					68190DF51DD8E5F1001C0862 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6YFN2JGE68;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68190DD91DD8E5F1001C0862;
+					};
+					68190E001DD8E5F1001C0862 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6YFN2JGE68;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68190DD91DD8E5F1001C0862;
+					};
+				};
+			};
+			buildConfigurationList = 68190DD51DD8E5F1001C0862 /* Build configuration list for PBXProject "TTTgame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68190DD11DD8E5F1001C0862;
+			productRefGroup = 68190DDB1DD8E5F1001C0862 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68190DD91DD8E5F1001C0862 /* TTTgame */,
+				68190DF51DD8E5F1001C0862 /* TTTgameTests */,
+				68190E001DD8E5F1001C0862 /* TTTgameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68190DD81DD8E5F1001C0862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68190DF01DD8E5F1001C0862 /* LaunchScreen.storyboard in Resources */,
+				68190DED1DD8E5F1001C0862 /* Assets.xcassets in Resources */,
+				68190DE81DD8E5F1001C0862 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68190DF41DD8E5F1001C0862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68190DFF1DD8E5F1001C0862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68190DD61DD8E5F1001C0862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68190DE51DD8E5F1001C0862 /* ViewController.m in Sources */,
+				68190DE21DD8E5F1001C0862 /* AppDelegate.m in Sources */,
+				68190DEB1DD8E5F1001C0862 /* TTTgame.xcdatamodeld in Sources */,
+				68190DDF1DD8E5F1001C0862 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68190DF21DD8E5F1001C0862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68190DFB1DD8E5F1001C0862 /* TTTgameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68190DFD1DD8E5F1001C0862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68190E061DD8E5F1001C0862 /* TTTgameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68190DF81DD8E5F1001C0862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68190DD91DD8E5F1001C0862 /* TTTgame */;
+			targetProxy = 68190DF71DD8E5F1001C0862 /* PBXContainerItemProxy */;
+		};
+		68190E031DD8E5F1001C0862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68190DD91DD8E5F1001C0862 /* TTTgame */;
+			targetProxy = 68190E021DD8E5F1001C0862 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68190DE61DD8E5F1001C0862 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68190DE71DD8E5F1001C0862 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68190DEE1DD8E5F1001C0862 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68190DEF1DD8E5F1001C0862 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68190E081DD8E5F1001C0862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68190E091DD8E5F1001C0862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68190E0B1DD8E5F1001C0862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6YFN2JGE68;
+				INFOPLIST_FILE = TTTgame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = damian.TTTgame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68190E0C1DD8E5F1001C0862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6YFN2JGE68;
+				INFOPLIST_FILE = TTTgame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = damian.TTTgame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68190E0E1DD8E5F1001C0862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6YFN2JGE68;
+				INFOPLIST_FILE = TTTgameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = damian.TTTgameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTTgame.app/TTTgame";
+			};
+			name = Debug;
+		};
+		68190E0F1DD8E5F1001C0862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6YFN2JGE68;
+				INFOPLIST_FILE = TTTgameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = damian.TTTgameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTTgame.app/TTTgame";
+			};
+			name = Release;
+		};
+		68190E111DD8E5F1001C0862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6YFN2JGE68;
+				INFOPLIST_FILE = TTTgameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = damian.TTTgameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTTgame;
+			};
+			name = Debug;
+		};
+		68190E121DD8E5F1001C0862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6YFN2JGE68;
+				INFOPLIST_FILE = TTTgameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = damian.TTTgameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTTgame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68190DD51DD8E5F1001C0862 /* Build configuration list for PBXProject "TTTgame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68190E081DD8E5F1001C0862 /* Debug */,
+				68190E091DD8E5F1001C0862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68190E0A1DD8E5F1001C0862 /* Build configuration list for PBXNativeTarget "TTTgame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68190E0B1DD8E5F1001C0862 /* Debug */,
+				68190E0C1DD8E5F1001C0862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68190E0D1DD8E5F1001C0862 /* Build configuration list for PBXNativeTarget "TTTgameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68190E0E1DD8E5F1001C0862 /* Debug */,
+				68190E0F1DD8E5F1001C0862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68190E101DD8E5F1001C0862 /* Build configuration list for PBXNativeTarget "TTTgameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68190E111DD8E5F1001C0862 /* Debug */,
+				68190E121DD8E5F1001C0862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		68190DE91DD8E5F1001C0862 /* TTTgame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				68190DEA1DD8E5F1001C0862 /* TTTgame.xcdatamodel */,
+			);
+			currentVersion = 68190DEA1DD8E5F1001C0862 /* TTTgame.xcdatamodel */;
+			path = TTTgame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 68190DD21DD8E5F1001C0862 /* Project object */;
+}
