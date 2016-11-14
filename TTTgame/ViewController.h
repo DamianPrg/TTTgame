@@ -10,6 +10,17 @@
 
 @interface ViewController : UIViewController
 
+@property NSMutableArray* board;
+@property NSString* currentPlayerString;
+
+
+@property (weak, nonatomic) IBOutlet UIButton *currentPlayerButton;
+
+- (void)updateCurrentPlayerButton;
+- (void)placeMarkForCurrentPlayer: (int)atIndex andButton:(UIButton*)button;
+- (BOOL)checkWin: (NSString*)forPlayerWithString;
+- (void)showWinScreen: (NSString*)forPlayerWithString;
+- (void)clearGame;
 
 @end
 
